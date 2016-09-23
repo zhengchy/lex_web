@@ -84,6 +84,7 @@ color: #ED47C5;
 .navbar-inverse .navbar-nav > li.c7 a{
 color: #BD69FF;
 }
+.mainNav{margin-top:10px}
 .navbar-inverse .navbar-nav > li.c1 a:hover, .navbar-inverse .navbar-nav > li.c1.active a{
 color:#fff;
 background: #F55;
