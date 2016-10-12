@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1, .h1, h2, .h2, h3, .h3 {
 	margin-top: 30px;
+	font-family: "微软雅黑";
 }
 h2 {
 	margin: 30px 0;
@@ -1091,3 +1092,36 @@ list-style: none;
 		margin: 8px 0 0;
 	}
 }
+
+.more{
+	height: 60px;
+}
+ .more a:hover{
+	color: #000000;
+}
+.rightFloat{
+	float: right;
+}
+.comWidth{ width:1100px;margin-left:auto; margin-right:auto;}
+.leftArea{float:left;}
+.rightArea{float:right;}
+.topBar{height:31px; background-color:#f7f7f7; line-height:31px;}
+.collection{background:url(../images/lex/collection.jpg) left center no-repeat; padding-left:19px; font-weight:bold;}
+.topBar a:hover{color:red;}
+.by{border: 2px;}
+.leftContent{padding-left:140px ;}
+.leftImg{width: 160px;}
+.className{
+    width: 75%;
+}
+.className p {
+    color: #aaa;
+    font-family: "微软雅黑";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.8em;
+    text-transform: uppercase;
+}
+ .showcase {
+        padding: 0;
+    }
