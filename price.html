@@ -10,7 +10,8 @@
 	<link rel="stylesheet" media="screen" href="http://fonts.useso.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-	<!-- Custom styles for our template -->
+	
+"	<!-- Custom styles for our template -->
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -21,23 +22,34 @@
 </head>
 
 <body>
-	<!-- Fixed navbar -->
+	<div class="topBar">
+		<div class="comWidth">
+			<div class="leftArea">
+				<a href="#" class="collection">收藏乐而学</a>
+			</div>
+			<div class="rightArea">
+				<a href="#">[登录]</a><a href="#">[免费注册]</a>
+			</div>
+		</div>
+		</div>
+ 	
+ 		<!-- Fixed navbar -->
 	<div class="navbar navbar-inverse">
 		<div class="container">
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
 				<a class="navbar-brand" href="index.html">
-					<img src="assets/images/logo.png" alt="Techro HTML5 template"></a>
+					<img src="assets/images/lex/LOGO_260分辨率.jpg" alt="Techro HTML5 template"></a>
 			</div>
-		<div class="navbar-collapse collapse">
+			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
-					<li class="c1"><a href="index.html">Home</a></li>
-					<li class="c2"><a href="about.html">About</a></li>
-					<li class="c3"><a href="courses.html">Courses</a></li>
-					<li class="c4 active"><a href="price.html">Price</a></li>
-					<li class="c5"><a href="videos.html">Videos</a></li>
-					<li class="c6 dropdown">
+					<li class="c1 active"><a href="index.html">首页</a></li>
+					<li class="c2"><a href="about.html">线下班</a></li>
+					<li class="c3"><a href="courses.html">直播课</a></li>
+					<li class="c4"><a href="price.html">刷题课</a></li>
+					<li class="c5"><a href="videos.html">学习资料</a></li>
+			<!--		<li class="c6 dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="sidebar-right.html">Right Sidebar</a></li>
@@ -46,47 +58,114 @@
 							<li><a href="#">Dummy Link3</a></li>
 						</ul>
 					</li>
-					<li class="c7"><a href="contact.html">Contact</a></li>
+				-->
+					<li class="c7"><a href="contact.html">我的课程</a></li>
 
-				</ul>
+				</ul> 
 			</div>
 			<!--/.nav-collapse -->
 		</div>
 	</div>
 	<!-- /.navbar -->
 
-		<header id="head" class="secondary">
+		<!--<header id="head" class="secondary">
             <div class="container">
                     <h1>Our Price</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing eliras scele!</p>
                 </div>
-    </header>
-
+    </header>-->
+<div class="head-bread">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li><a href="#">线下班</a></li>
+                    <li><a href="#">数学</a></li>
+                    <li><a href="#">小学三年级</a></li>
+                    <li class="active">秋季班</li>
+                </ol>
+            </div>
+        </div>
 
 	<!-- container -->
 	<div class="container">
 		<div class="row">
 			<!-- Article content -->
-			<section class="col-sm-12 maincontent">
+			<!--<section class="col-sm-12 maincontent">
 				<h3>Cost</h3>
 				<p>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 				</p>
 
-			</section>
+			</section>-->
 		</div>
 	</div>
 	<!-- /container -->
 
+ <div class="showcase-grid">
+            <div class="container">
+                <div class="col-md-8 showcase">
+                    
+                          <ul>
+                            <li data-thumb="assets/images/1.jpg">
+                                 <img src="assets/images/1.jpg" data-imagezoom="true" class="img-responsive"> 
+                            </li>
+                            
+                            
+                          </ul>
+                        <div class="clearfix"></div>
+                  
+                </div>
+                <div class="col-md-4 showcase">
+                    <div class="showcase-rt-top">
+                        <div class="pull-left className">
+                            <h3>三年级秋季班</h3>
+                            <p>主讲老师：高老师</p>
+                            <p>课时：15次课</p>
+                            <p>授课时间：2016-9-3起，每周三18：00-21：00</p>
+                            <p style="color:red ;">课程服务：课程回看，课后作业下载，每周1次线下刷题课</p>
+                            <h4 style="color: red;">&#36;1000</h4>
+                        </div>
+                        
+                        <div class="clearfix"></div>
+                    </div>
+                    <hr class="featurette-divider">
+                    <div class="shocase-rt-bot">
+                        <div class="float-qty-chart">
+                        
+                        <div class="clearfix"></div>
+                        </div>
+                        <ul>
+                            <li class="ad-2-crt simpleCart_shelfItem">
+                                <a class="btn item_add" href="#" role="button">立即购买</a>
+                                <a class="btn" href="#" role="button">加入购物车</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+        <div class="clearfix"></div>
+            </div>
+        </div>
+        <!--选项-->
+        <div class="container">
+        	<div class="col-md-6" style="border: solid silver 1px;text-align: center;"><a href="#">课程介绍</a></div>
+        	<div class="col-md-6"style="border: solid silver 1px;text-align: center;"><a href="#">课程表</a></div>
+        </div>
+                
 	<section class="container">
 		<div class="heading">
 			<!-- Heading -->
-			<h3>Range</h3>
-			<p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
 			<br />
 		</div>
+		
+		<div class="container">
+			<img src="assets/images/about.jpg" />
+			
+			
+		</div>
 		<div class="row flat">
-			<div class="col-lg-3 col-md-3 col-xs-6">
+			<!--<div class="col-lg-3 col-md-3 col-xs-6">
 				<ul class="plan plan1">
 					<li class="plan-name">Basic
 					</li>
@@ -112,9 +191,9 @@
 						<a href="#" class="btn">Signup</a>
 					</li>
 				</ul>
-			</div>
+			</div>-->
 
-			<div class="col-lg-3 col-md-3 col-xs-6">
+			<!--<div class="col-lg-3 col-md-3 col-xs-6">
 				<ul class="plan plan2 featured">
 					<li class="plan-name">Standard
 					</li>
@@ -196,16 +275,16 @@
 						<a href="#" class="btn">Signup</a>
 					</li>
 				</ul>
-			</div>
+			</div>-->
 		</div>
 	</section>
- <footer id="footer">
+  <footer id="footer">
  
 		<div class="container">
    <div class="row">
   <div class="footerbottom">
-    <div class="col-md-3 col-sm-6">
-      <div class="footerwidget">
+    <div class="col-md-12 col-sm-10">
+      <!--<div class="footerwidget">
         <h4>
           Course Categories
         </h4>
@@ -284,35 +363,52 @@
           </ul>
         </div>
       </div>
+    </div>-->
+    <div class="footerwidget col-md-2 col-sm-6"> 
+   
+            	
     </div>
-    <div class="col-md-3 col-sm-6"> 
+     <div class="footerwidget col-md-4 col-sm-6"> 
+   
+            	<img  src="assets/images/u62.jpg"/> 
+    </div>
+
+    <div class="col-md-2 col-sm-6"> 
+   
             	<div class="footerwidget"> 
-                         <h4>Contact</h4> 
-                        <p>Lorem reksi this dummy text unde omnis iste natus error sit volupum</p>
+            			
+                         <h4 style="padding-top: 50px;">服务电话</h4> 
+                        <!--<p>Lorem reksi this dummy text unde omnis iste natus error sit volupum</p>-->
             <div class="contact-info"> 
-            <i class="fa fa-map-marker"></i> Kerniles 416  - United Kingdom<br>
-            <i class="fa fa-phone"></i>+00 123 156 711 <br>
-             <i class="fa fa-envelope-o"></i> youremail@email.com
+            <!--<i class="fa fa-map-marker"></i> Kerniles 416  - United Kingdom<br>-->
+        <i class="fa fa-phone"></i>13000000000 <br>
+        <i class="fa fa-phone"></i>13111111111 <br>
+             <!--<i class="fa fa-envelope-o"></i> youremail@email.com-->
               </div> 
                 </div><!-- end widget --> 
     </div>
+     <div class="footerwidget col-md-4 col-sm-6" style="padding-left: 100px;"> 
+   
+            	<img  src="assets/images/u62.jpg"/> 
+    </div>
   </div>
 </div>
-			<div class="social text-center">
+<!--		
+		<div class="social text-center">
 				<a href="#"><i class="fa fa-twitter"></i></a>
 				<a href="#"><i class="fa fa-facebook"></i></a>
 				<a href="#"><i class="fa fa-dribbble"></i></a>
 				<a href="#"><i class="fa fa-flickr"></i></a>
 				<a href="#"><i class="fa fa-github"></i></a>
 			</div>
-
+-->
 			<div class="clear"></div>
 			<!--CLEAR FLOATS-->
 		</div>
 		<div class="footer2">
 			<div class="container">
 				<div class="row">
-
+<!--
 					<div class="col-md-6 panel">
 						<div class="panel-body">
 							<p class="simplenav">
@@ -325,11 +421,11 @@
 							</p>
 						</div>
 					</div>
-
-					<div class="col-md-6 panel">
+-->
+					<div class="col-md-8 panel">
 						<div class="panel-body">
 							<p class="text-right">
-								Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+								北京乐而学教育咨询有限公司   版权所有 京ICP备XXX  All rights reserved
 							</p>
 						</div>
 					</div>
@@ -340,9 +436,13 @@
 		</div>
 	</footer>
 
+
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	 
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/custom.js"></script>
+	
+	 
 </body>
 </html>
