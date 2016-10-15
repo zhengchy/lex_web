@@ -1122,6 +1122,11 @@ list-style: none;
     line-height: 1.8em;
     text-transform: uppercase;
 }
- .showcase {
-        padding: 0;
-    }
+ 
+ .classForm {
+ 	padding-right: 12px;
+ 	border-bottom: solid silver 1px;
+ }
+td {
+	height: 20px;
+}
