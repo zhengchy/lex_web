@@ -19,19 +19,124 @@
 	<script src="assets/js/html5shiv.js"></script>
 	<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
-</head>
+<script src="assets/js/jquery.min.js"></script>
+<script>
+jQuery(document).ready(function($) {
+	$('.loginBtn').click(function(){
+		$('.theme-popover-mask').fadeIn(100);
+		$('.theme-popover').slideDown(200);
+	})
+	$('.theme-poptit .close').click(function(){
+		$('.theme-popover-mask').fadeOut(100);
+		$('.theme-popover').slideUp(200);
+	})
 
+})
+
+//<!--register-->
+jQuery(document).ready(function($) {
+	$('.regBtn').click(function(){
+		$('.theme-popover-reg').fadeIn(100);
+		$('.theme-popregs').slideDown(200);
+	})
+	$('.theme-poptre .close').click(function(){
+		$('.theme-popover-reg').fadeOut(100);
+		$('.theme-popregs').slideUp(200);
+	})
+
+})
+</script>
+
+
+
+
+</head>
 <body>
-	<div class="topBar">
+ 	<div class="topBar">
 		<div class="comWidth">
 			<div class="leftArea">
 				<a href="#" class="collection">收藏乐而学</a>
 			</div>
-			<div class="rightArea">
-				<a href="#">[登录]</a><a href="#">[免费注册]</a>
+			<div class=" rightArea">
+				<a class="loginBtn" href="javascript:;">[登录]</a><a class="regBtn" href="javascript:;">[免费注册]</a>
 			</div>
 		</div>
 		</div>
+ 	<!--login-->
+ 	<div class="theme-popover">
+     <div class="theme-poptit">
+          <a href="javascript:;" title="关闭" class="close">×</a>
+          <h3 style="text-align: center;">登录</h3>
+     </div>
+     <hr style="border: solid silver 1px;">
+     <div class="theme-popbod dform">
+           <form  name="loginform" action="" method="post">
+                <ul>
+                     <li><img src="assets/images/slides/u895.png" style="width: 90%;"></li>
+                     <li>
+                      <input type="email" class="textbox1" name="email" placeholder="请输入账号" required />
+                      <span class="form_hint">Enter a valid email</span>
+                     </li>
+                     <li>
+	            <input type="password" name="website" class="textbox2" placeholder="请输入密码">
+	            
+	        </li>
+	        <li><input type="checkbox" name="checkbox" checked><h5 style="display: inline; font-family: '微软雅黑';">7日自动登陆</h5>
+	        	<a href="#" class="loginContainer" style="font-family: '微软雅黑';font-size: 12px;float: right;">忘记密码？</a>
+	        </li>
+	        
+            <li><input class="btn btn-primary" style="background-color: brown; width: 90%;" type="submit" name="submit" value=" 登 录 " /></li>
+               <a href="#" class="loginContainer" style="font-family: '微软雅黑';font-size: 12px;float: right;">立即注册</a>      
+                
+                	
+			</ul>
+           </form>
+     </div>
+</div>
+<div class="theme-popregs"></div>
+ 	
+ 	
+ 	<!--register-->
+ 	<div class="theme-popregs">
+     <div class="theme-poptre">
+          <a href="javascript:;" title="关闭" class="close">×</a>
+          <h3 style="text-align: center;">注册</h3>
+     
+     <hr style="border: solid silver 1px;">
+     <div class="theme-popbod dform">
+           <form  name="loginform" action="" method="post">
+                <ul>          
+                     <li>
+                      <input type="email" class="textbox1" name="email" placeholder="请输入手机号" required />
+                      
+                     </li>
+                     <li>
+	            <input type="password" name="website" class="textbox2" placeholder="请输入密码">
+	            
+	        </li>
+	        <li>
+	            <input type="password" name="website" class="textbox2" placeholder="请再次输入密码">
+	            
+	        </li>
+	        <li>
+	            <input type="text" name="website" class="textbox3" placeholder="请输入验证码" ><img src="#">
+	            
+	        </li>	    
+	        <li>
+	            <input type="text" name="website" class="textbox3" placeholder="请输入短信验证码" ><a href="#">发送验证码</a>
+	            
+	        </li>
+	        	
+            <li><input class="btn btn-primary" style="background-color: brown; width: 90%;" type="submit" name="submit" value=" 注 册 " /></li>
+                 
+                
+                	
+			</ul>
+           </form>
+           </div>
+     </div>
+</div>
+<div class="theme-popover-reg"></div>
  	
  		<!-- Fixed navbar -->
 	<div class="navbar navbar-inverse">
@@ -186,7 +291,7 @@
 <td colspan = "6" align = "center">鸡兔，数列，乘法</td>  
 <td colspan = "6" align = "center">9月3日&nbsp;18:00-21:00</td> 
 <td colspan = "6" align = "center"><img src="assets/images/slides/u394.png"></td> 
-<td colspan = "6" align = "center">作业下载</td> 
+<td colspan = "6" align = "center"><a href="#">作业下载</a></td> 
 </tr>  
 <tr>  
  
